@@ -11,20 +11,21 @@ int main()
 {
 	double x, y, R;
 	srand((unsigned)time(NULL));
+	cout << "R = "; cin >> R;
 	for (int i = 0; i < 10; i++)
 	{
 		cout << "x = "; cin >> x;
 		cout << "y = "; cin >> y;
-		cout << "R = "; cin >> R;
+		
 		if (y >= 0 && x >= 0 && y >= x && R * R >= x * x + y * y || y <= 0 && x <= 0 && y <= x && R * R >= x * x + y * y)
 			cout << "yes" << endl;
 		else
 			cout << "no" << endl;
 	}
 	cout << endl << fixed;
-		for (int i = 0; i < 10; i++)
+	cout << "R = "; cin >> R;
+	for (int i = 0; i < 10; i++)
 		{
-			cout << "R = "; cin >> R;
 			x = 2 * R * rand() / RAND_MAX - R;
 			y = 2 * R * rand() / RAND_MAX - R;
 			if (y >= 0 && x >= 0 && y >= x && R * R >= x * x + y * y || y <= 0 && x <= 0 && y <= x && R * R >= x * x + y * y)

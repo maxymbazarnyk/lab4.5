@@ -1,2 +1,4 @@
 D:\IT\labs\Project1\Debug\Project1.exe
 D:\IT\labs\Project1\Debug\Project1.pdb
+D:\IT\labs\laba4.5\Debug\Project1.exe
+D:\IT\labs\laba4.5\Debug\Project1.pdb
